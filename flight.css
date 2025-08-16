@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    font-family: 'Inter', sans-serif; 
+    border: border-box;
+   
+}
+.navbar{
+    height:50px;
+    padding: 15px 30px;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc
+
+    
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:30px;
+    font-size: 15px;
+    font-weight: 500;
+    color:#008cdd;
+    cursor: pointer;
+    text-decoration: none;
+    background-color:white;
+    padding: 10px 0;
+  
+    
+}
+.menu a{
+    text-decoration: none;
+    color:#005f99;
+    transition: color 0.3s;
+
+}
+.menu a:hover {
+    color:#003d66;
+}
+
+
+
+
+
+
+.login-btn{
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.hero{
+    height: 90vh;
+    background-image: url("aero3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 60px;
+
+
+}
+
+
+.search-box{
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.95);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.Search-opt{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+
