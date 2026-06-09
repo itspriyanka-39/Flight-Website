@@ -17,7 +17,6 @@ A simple and responsive Flight Booking Website built using HTML and CSS.
 
 ## 📂 Project Structure
 Flight-Website/
-│
 ├── flight.html
 ├── flight.css
 ├── aero3.jpg
